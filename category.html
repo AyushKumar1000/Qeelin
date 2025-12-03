@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Category | Qeelin Couture</title>
+  <meta name="description" content="Browse our premium collection.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">
+        <span class="logo-text">QEELIN</span>
+        
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="collections.html" class="nav-link">Collections</a>
+        <a href="category.html?cat=kurti-sets" class="nav-link">Kurti Sets</a>
+        <a href="category.html?cat=tops" class="nav-link">Tops</a>
+        <a href="category.html?cat=jeans" class="nav-link">Jeans</a>
+      </nav>
+      <div class="header-actions">
+        <a href="cart.html" class="cart-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="collections.html" class="mobile-nav-link">Collections</a>
+      <a href="category.html?cat=kurti-sets" class="mobile-nav-link">Kurti Sets</a>
+      <a href="category.html?cat=tops" class="mobile-nav-link">Tops</a>
+      <a href="category.html?cat=jeans" class="mobile-nav-link">Jeans</a>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1 class="page-title" id="categoryTitle">Category</h1>
+      <p class="page-subtitle" id="categorySubtitle">Browse our collection</p>
+    </div>
+  </section>
+
+  <!-- Category Content -->
+  <section class="section category-section">
+    <div class="container">
+      <div class="category-layout">
+        <!-- Filters Sidebar -->
+        <aside class="filters-sidebar">
+          <div class="filters-header">
+            <h3>Filters</h3>
+            <button class="clear-filters" id="clearFilters">Clear All</button>
+          </div>
+          
+          <!-- Size Filter -->
+          <div class="filter-group">
+            <h4 class="filter-title">Size</h4>
+            <div class="filter-options sizes">
+              <label class="size-option">
+                <input type="checkbox" name="size" value="XS">
+                <span>XS</span>
+              </label>
+              <label class="size-option">
+                <input type="checkbox" name="size" value="S">
+                <span>S</span>
+              </label>
+              <label class="size-option">
+                <input type="checkbox" name="size" value="M">
+                <span>M</span>
+              </label>
+              <label class="size-option">
+                <input type="checkbox" name="size" value="L">
+                <span>L</span>
+              </label>
+              <label class="size-option">
+                <input type="checkbox" name="size" value="XL">
+                <span>XL</span>
+              </label>
+              <label class="size-option">
+                <input type="checkbox" name="size" value="XXL">
+                <span>XXL</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Color Filter -->
+          <div class="filter-group">
+            <h4 class="filter-title">Color</h4>
+            <div class="filter-options colors">
+              <label class="color-option">
+                <input type="checkbox" name="color" value="Black">
+                <span class="color-swatch" style="background: #000;"></span>
+                <span class="color-name">Black</span>
+              </label>
+              <label class="color-option">
+                <input type="checkbox" name="color" value="White">
+                <span class="color-swatch" style="background: #fff; border: 1px solid #ddd;"></span>
+                <span class="color-name">White</span>
+              </label>
+              <label class="color-option">
+                <input type="checkbox" name="color" value="Pink">
+                <span class="color-swatch" style="background: #FFB6C1;"></span>
+                <span class="color-name">Pink</span>
+              </label>
+              <label class="color-option">
+                <input type="checkbox" name="color" value="Blue">
+                <span class="color-swatch" style="background: #B0C4DE;"></span>
+                <span class="color-name">Blue</span>
+              </label>
+              <label class="color-option">
+                <input type="checkbox" name="color" value="Beige">
+                <span class="color-swatch" style="background: #F5F5DC;"></span>
+                <span class="color-name">Beige</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Price Filter -->
+          <div class="filter-group">
+            <h4 class="filter-title">Price</h4>
+            <div class="filter-options">
+              <label class="checkbox-option">
+                <input type="checkbox" name="price" value="0-999">
+                <span>Under ₹999</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="price" value="1000-1999">
+                <span>₹1,000 - ₹1,999</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="price" value="2000-2999">
+                <span>₹2,000 - ₹2,999</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="price" value="3000+">
+                <span>₹3,000+</span>
+              </label>
+            </div>
+          </div>
+
+          <button class="btn btn-primary btn-full" id="applyFilters">Apply Filters</button>
+        </aside>
+
+        <!-- Products Grid -->
+        <div class="category-products">
+          <div class="category-toolbar">
+            <p class="products-count"><span id="productCount">0</span> Products</p>
+            <div class="sort-dropdown">
+              <select id="sortSelect">
+                <option value="featured">Featured</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="newest">Newest</option>
+              </select>
+            </div>
+            <button class="filter-toggle-btn" id="filterToggle">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <line x1="4" y1="21" x2="4" y2="14"></line>
+                <line x1="4" y1="10" x2="4" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12" y2="3"></line>
+                <line x1="20" y1="21" x2="20" y2="16"></line>
+                <line x1="20" y1="12" x2="20" y2="3"></line>
+                <line x1="1" y1="14" x2="7" y2="14"></line>
+                <line x1="9" y1="8" x2="15" y2="8"></line>
+                <line x1="17" y1="16" x2="23" y2="16"></line>
+              </svg>
+              Filters
+            </button>
+          </div>
+          <div class="products-grid" id="categoryProductsGrid">
+            <!-- Products loaded via JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2025 Qeelin Couture. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+<!-- Firebase SDKs -->
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-storage-compat.js"></script>
+<script src="firebase/config.js"></script>
+<script src="firebase/database.js"></script>
+<script src="firebase/auth.js"></script>
+
+<script src="js/data.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/main.js"></script>
+<script src="js/category.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collections | Qeelin Couture</title>
+  <meta name="description" content="Browse our premium collections of kurti sets, tops, and jeans.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">
+        <span class="logo-text">QEELIN</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="collections.html" class="nav-link active">Collections</a>
+        <a href="category.html?cat=kurti-sets" class="nav-link">Kurti Sets</a>
+        <a href="category.html?cat=tops" class="nav-link">Tops</a>
+        <a href="category.html?cat=jeans" class="nav-link">Jeans</a>
+      </nav>
+      <div class="header-actions">
+        <a href="cart.html" class="cart-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="collections.html" class="mobile-nav-link">Collections</a>
+      <a href="category.html?cat=kurti-sets" class="mobile-nav-link">Kurti Sets</a>
+      <a href="category.html?cat=tops" class="mobile-nav-link">Tops</a>
+      <a href="category.html?cat=jeans" class="mobile-nav-link">Jeans</a>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1 class="page-title">Our Collections</h1>
+      <p class="page-subtitle">Explore our curated categories</p>
+    </div>
+  </section>
+
+  <!-- Collections Grid -->
+  <section class="section">
+    <div class="container">
+      <div class="collections-grid">
+        <a href="category.html?cat=kurti-sets" class="collection-card large">
+          <div class="collection-image">
+            <img src="https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=800&h=1000&fit=crop" alt="Kurti Sets">
+          </div>
+          <div class="collection-overlay">
+            <span class="collection-tag">New Season</span>
+            <h2 class="collection-title">Kurti Sets</h2>
+            <p class="collection-desc">Elegant ethnic wear for every occasion</p>
+            <span class="collection-link">Shop Now <span>→</span></span>
+          </div>
+        </a>
+        <a href="category.html?cat=tops" class="collection-card">
+          <div class="collection-image">
+            <img src="https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=600&h=700&fit=crop" alt="Tops">
+          </div>
+          <div class="collection-overlay">
+            <span class="collection-tag">Trending</span>
+            <h2 class="collection-title">Tops</h2>
+            <p class="collection-desc">Stylish tops for everyday elegance</p>
+            <span class="collection-link">Shop Now <span>→</span></span>
+          </div>
+        </a>
+        <a href="category.html?cat=jeans" class="collection-card">
+          <div class="collection-image">
+            <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=700&fit=crop" alt="Jeans">
+          </div>
+          <div class="collection-overlay">
+            <span class="collection-tag">Best Sellers</span>
+            <h2 class="collection-title">Jeans</h2>
+            <p class="collection-desc">Premium denim for the modern woman</p>
+            <span class="collection-link">Shop Now <span>→</span></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- All Products -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">All Products</h2>
+      <p class="section-subtitle">Browse our complete collection</p>
+      <div class="products-grid" id="allProductsGrid">
+        <!-- Products loaded via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <span class="logo-text">QEELIN</span>
+          </div>
+          <p class="footer-about">Premium women's fashion for the modern, elegant woman.</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="cart.html">Cart</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title">Contact</h4>
+          <ul class="footer-contact">
+            <li>hello@qeelincouture.com</li>
+            <li>+91 98765 43210</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Qeelin Couture. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+<!-- Firebase SDKs -->
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-storage-compat.js"></script>
+<script src="firebase/config.js"></script>
+<script src="firebase/database.js"></script>
+<script src="firebase/auth.js"></script>
+
+<script src="js/data.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/main.js"></script>
+<script src="js/collections.js"></script>
+</body>
+</html>
