@@ -4,7 +4,11 @@ let currentCategory = ""
 let filteredProducts = []
 
 document.addEventListener("DOMContentLoaded", () => {
-  initCategoryPage()
+  if (typeof window.productsReady === 'function') {
+    window.productsReady.then(initCategoryPage).catch(()=>initCategoryPage())
+  } else {
+    initCategoryPage()
+  }
 })
 
 function initCategoryPage() {

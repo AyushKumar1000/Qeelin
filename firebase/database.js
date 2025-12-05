@@ -51,17 +51,17 @@
 
   async function uploadImagesToStorage(id, files){
     if(!files || files.length === 0) return []
+    // Local storage workaround - create local URLs
     const uploads = Array.from(files).map(async (file, idx) => {
-      const path = `products/${id}/${Date.now()}_${idx}`
-      const ref = storage.ref().child(path)
-      if (typeof file === 'string' && file.startsWith('data:')) {
-        const snap = await ref.putString(file, 'data_url')
-        return await snap.ref.getDownloadURL()
+      if (typeof file === 'string') {
+        return file // Return existing URLs as-is
       } else if (file instanceof File || (file && file.name)) {
-        const snap = await ref.put(file)
-        return await snap.ref.getDownloadURL()
-      } else if (typeof file === 'string') {
-        return file
+        // Create a local URL that will be stored as a data URL
+        return new Promise((resolve) => {
+          const reader = new FileReader()
+          reader.onload = () => resolve(reader.result)
+          reader.readAsDataURL(file)
+        })
       }
       return null
     })

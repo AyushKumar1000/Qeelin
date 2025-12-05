@@ -1,18 +1,22 @@
 // ===== CART MANAGEMENT =====
-let cart = JSON.parse(localStorage.getItem("qeelin_cart")) || []
+let cart = JSON.parse(localStorage.getItem("qeelinCart")) || []
 const cartOrders = JSON.parse(localStorage.getItem("qeelin_orders")) || []
-const WHATSAPP_NUMBER = "7736312372" // Replace with actual WhatsApp number
+const WHATSAPP_NUMBER = "917736312372" // Updated to correct WhatsApp number
 
 function saveCart() {
-  localStorage.setItem("qeelin_cart", JSON.stringify(cart))
+  localStorage.setItem("qeelinCart", JSON.stringify(cart))
   updateCartCount()
 }
 
 function updateCartCount() {
   const countElements = document.querySelectorAll("#cartCount")
-  const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0)
+  const totalItems = cart.reduce((sum, item) => {
+    const q = Number(item.quantity)
+    if (!Number.isFinite(q) || q <= 0) return sum
+    return sum + q
+  }, 0)
   countElements.forEach((el) => {
-    el.textContent = totalItems
+    el.textContent = String(totalItems)
   })
 }
 

@@ -1,0 +1,1983 @@
+[00:00:02.989] Server  LOG      ✓ Ready in 2.8s
+[00:00:11.094] Server  LOG      ○ Compiling / ...
+[00:00:12.189] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:12.852] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:12.852] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:12.852] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866719192}
+[00:01:10.021] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:10.567] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:10.567] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
+[00:01:10.567] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866776863}
+[00:01:10.567] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/login color: rgb(120, 120, 120) color: inherit {"dp":"/admin/login","o":"http://localhost:3000/admin/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866776901}
+[00:01:29.964] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866796294}
+[00:01:37.007] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/products color: rgb(120, 120, 120) color: inherit {"dp":"/admin/products","o":"http://localhost:3000/admin/products","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866803357}
+[00:01:37.815] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/orders color: rgb(120, 120, 120) color: inherit {"dp":"/admin/orders","o":"http://localhost:3000/admin/orders","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866804169}
+[00:01:41.260] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/offers color: rgb(120, 120, 120) color: inherit {"dp":"/admin/offers","o":"http://localhost:3000/admin/offers","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866807615}
+[00:01:42.880] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/orders color: rgb(120, 120, 120) color: inherit {"dp":"/admin/orders","o":"http://localhost:3000/admin/orders","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866809235}
+[00:01:43.707] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/products color: rgb(120, 120, 120) color: inherit {"dp":"/admin/products","o":"http://localhost:3000/admin/products","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866810058}
+[00:01:44.387] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866810742}
+[00:04:02.562] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/orders color: rgb(120, 120, 120) color: inherit {"dp":"/admin/orders","o":"http://localhost:3000/admin/orders","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866948922}
+[00:04:11.079] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/offers color: rgb(120, 120, 120) color: inherit {"dp":"/admin/offers","o":"http://localhost:3000/admin/offers","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866957437}
+[00:04:15.114] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/settings color: rgb(120, 120, 120) color: inherit {"dp":"/admin/settings","o":"http://localhost:3000/admin/settings","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866961473}
+[00:04:16.170] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/offers color: rgb(120, 120, 120) color: inherit {"dp":"/admin/offers","o":"http://localhost:3000/admin/offers","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866962529}
+[00:04:16.954] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/settings color: rgb(120, 120, 120) color: inherit {"dp":"/admin/settings","o":"http://localhost:3000/admin/settings","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866963314}
+[00:04:20.316] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/orders color: rgb(120, 120, 120) color: inherit {"dp":"/admin/orders","o":"http://localhost:3000/admin/orders","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866966674}
+[00:04:20.823] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/products color: rgb(120, 120, 120) color: inherit {"dp":"/admin/products","o":"http://localhost:3000/admin/products","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866967180}
+[00:04:21.415] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866967774}
+[00:04:22.669] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/products color: rgb(120, 120, 120) color: inherit {"dp":"/admin/products","o":"http://localhost:3000/admin/products","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866969028}
+[00:04:23.566] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/orders color: rgb(120, 120, 120) color: inherit {"dp":"/admin/orders","o":"http://localhost:3000/admin/orders","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866969925}
+[00:04:24.540] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/products color: rgb(120, 120, 120) color: inherit {"dp":"/admin/products","o":"http://localhost:3000/admin/products","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866970892}
+[00:04:25.026] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866971385}
+[00:04:25.743] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/orders color: rgb(120, 120, 120) color: inherit {"dp":"/admin/orders","o":"http://localhost:3000/admin/orders","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866972102}
+[00:04:26.316] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/offers color: rgb(120, 120, 120) color: inherit {"dp":"/admin/offers","o":"http://localhost:3000/admin/offers","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866972675}
+[00:04:27.187] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/orders color: rgb(120, 120, 120) color: inherit {"dp":"/admin/orders","o":"http://localhost:3000/admin/orders","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866973546}
+[00:04:27.807] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/products color: rgb(120, 120, 120) color: inherit {"dp":"/admin/products","o":"http://localhost:3000/admin/products","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866974165}
+[00:04:28.680] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866975039}
+[00:06:45.720] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/products color: rgb(120, 120, 120) color: inherit {"dp":"/admin/products","o":"http://localhost:3000/admin/products","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764867112077}
+[00:17:14.732] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.745] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.751] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.765] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.772] Server  ERROR    ⨯ ./app/(store)/layout.tsx:3:1
+Module not found: Can't resolve '@/components/footer'
+  1 | import type React from "react"
+  2 | import Header from "@/components/header"
+> 3 | import Footer from "@/components/footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function StoreLayout({
+  6 |   children,
+
+Import map: aliased to relative './components/footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.773] Server  ERROR    ⨯ ./app/(store)/layout.tsx:3:1
+Module not found: Can't resolve '@/components/footer'
+  1 | import type React from "react"
+  2 | import Header from "@/components/header"
+> 3 | import Footer from "@/components/footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function StoreLayout({
+  6 |   children,
+
+Import map: aliased to relative './components/footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.807] Server  ERROR    ⨯ ./app/(store)/layout.tsx:2:1
+Module not found: Can't resolve '@/components/header'
+  1 | import type React from "react"
+> 2 | import Header from "@/components/header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/footer"
+  4 |
+  5 | export default function StoreLayout({
+
+Import map: aliased to relative './components/header' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.808] Server  ERROR    ⨯ ./app/(store)/layout.tsx:2:1
+Module not found: Can't resolve '@/components/header'
+  1 | import type React from "react"
+> 2 | import Header from "@/components/header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/footer"
+  4 |
+  5 | export default function StoreLayout({
+
+Import map: aliased to relative './components/header' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.840] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.841] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.842] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.843] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.848] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.849] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.851] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.855] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.863] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.863] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.865] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.866] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.867] Server  ERROR    ⨯ ./app/(store)/layout.tsx:3:1
+Module not found: Can't resolve '@/components/footer'
+  1 | import type React from "react"
+  2 | import Header from "@/components/header"
+> 3 | import Footer from "@/components/footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function StoreLayout({
+  6 |   children,
+
+Import map: aliased to relative './components/footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.867] Server  ERROR    ⨯ ./app/(store)/layout.tsx:3:1
+Module not found: Can't resolve '@/components/footer'
+  1 | import type React from "react"
+  2 | import Header from "@/components/header"
+> 3 | import Footer from "@/components/footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function StoreLayout({
+  6 |   children,
+
+Import map: aliased to relative './components/footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.867] Server  ERROR    ⨯ ./app/(store)/layout.tsx:2:1
+Module not found: Can't resolve '@/components/header'
+  1 | import type React from "react"
+> 2 | import Header from "@/components/header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/footer"
+  4 |
+  5 | export default function StoreLayout({
+
+Import map: aliased to relative './components/header' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.868] Server  ERROR    ⨯ ./app/(store)/layout.tsx:2:1
+Module not found: Can't resolve '@/components/header'
+  1 | import type React from "react"
+> 2 | import Header from "@/components/header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/footer"
+  4 |
+  5 | export default function StoreLayout({
+
+Import map: aliased to relative './components/header' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.871] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.944] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.957] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.963] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.964] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.964] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.965] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.969] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.971] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.971] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.972] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.973] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.973] Server  ERROR    ⨯ ./app/(store)/layout.tsx:3:1
+Module not found: Can't resolve '@/components/footer'
+  1 | import type React from "react"
+  2 | import Header from "@/components/header"
+> 3 | import Footer from "@/components/footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function StoreLayout({
+  6 |   children,
+
+Import map: aliased to relative './components/footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.973] Server  ERROR    ⨯ ./app/(store)/layout.tsx:3:1
+Module not found: Can't resolve '@/components/footer'
+  1 | import type React from "react"
+  2 | import Header from "@/components/header"
+> 3 | import Footer from "@/components/footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function StoreLayout({
+  6 |   children,
+
+Import map: aliased to relative './components/footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.974] Server  ERROR    ⨯ ./app/(store)/layout.tsx:2:1
+Module not found: Can't resolve '@/components/header'
+  1 | import type React from "react"
+> 2 | import Header from "@/components/header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/footer"
+  4 |
+  5 | export default function StoreLayout({
+
+Import map: aliased to relative './components/header' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.974] Server  ERROR    ⨯ ./app/(store)/layout.tsx:2:1
+Module not found: Can't resolve '@/components/header'
+  1 | import type React from "react"
+> 2 | import Header from "@/components/header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/footer"
+  4 |
+  5 | export default function StoreLayout({
+
+Import map: aliased to relative './components/header' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.975] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.975] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.976] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.977] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.977] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.978] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.978] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.980] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.982] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.983] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.983] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.984] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.984] Server  ERROR    ⨯ ./app/(store)/layout.tsx:3:1
+Module not found: Can't resolve '@/components/footer'
+  1 | import type React from "react"
+  2 | import Header from "@/components/header"
+> 3 | import Footer from "@/components/footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function StoreLayout({
+  6 |   children,
+
+Import map: aliased to relative './components/footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.984] Server  ERROR    ⨯ ./app/(store)/layout.tsx:3:1
+Module not found: Can't resolve '@/components/footer'
+  1 | import type React from "react"
+  2 | import Header from "@/components/header"
+> 3 | import Footer from "@/components/footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function StoreLayout({
+  6 |   children,
+
+Import map: aliased to relative './components/footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.984] Server  ERROR    ⨯ ./app/(store)/layout.tsx:2:1
+Module not found: Can't resolve '@/components/header'
+  1 | import type React from "react"
+> 2 | import Header from "@/components/header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/footer"
+  4 |
+  5 | export default function StoreLayout({
+
+Import map: aliased to relative './components/header' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.984] Server  ERROR    ⨯ ./app/(store)/layout.tsx:2:1
+Module not found: Can't resolve '@/components/header'
+  1 | import type React from "react"
+> 2 | import Header from "@/components/header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/footer"
+  4 |
+  5 | export default function StoreLayout({
+
+Import map: aliased to relative './components/header' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.987] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.987] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.988] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.989] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.990] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.991] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.991] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.993] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.996] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.997] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.997] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.999] Server  ERROR    ⨯ ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:14.999] Server  ERROR    ⨯ ./app/(store)/layout.tsx:3:1
+Module not found: Can't resolve '@/components/footer'
+  1 | import type React from "react"
+  2 | import Header from "@/components/header"
+> 3 | import Footer from "@/components/footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function StoreLayout({
+  6 |   children,
+
+Import map: aliased to relative './components/footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:15.002] Server  ERROR    ⨯ ./app/(store)/layout.tsx:3:1
+Module not found: Can't resolve '@/components/footer'
+  1 | import type React from "react"
+  2 | import Header from "@/components/header"
+> 3 | import Footer from "@/components/footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function StoreLayout({
+  6 |   children,
+
+Import map: aliased to relative './components/footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:15.002] Server  ERROR    ⨯ ./app/(store)/layout.tsx:2:1
+Module not found: Can't resolve '@/components/header'
+  1 | import type React from "react"
+> 2 | import Header from "@/components/header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/footer"
+  4 |
+  5 | export default function StoreLayout({
+
+Import map: aliased to relative './components/header' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:15.003] Server  ERROR    ⨯ ./app/(store)/layout.tsx:2:1
+Module not found: Can't resolve '@/components/header'
+  1 | import type React from "react"
+> 2 | import Header from "@/components/header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/footer"
+  4 |
+  5 | export default function StoreLayout({
+
+Import map: aliased to relative './components/header' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:15.004] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:15.006] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:15.006] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:15.009] Server  ERROR    ⨯ ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:15.011] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:15.012] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:15.013] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:15.015] Server  ERROR    ⨯ ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:15.877] Browser ERROR   ./app/(store)/page.tsx:7:1
+Module not found: Can't resolve '@/components/category-card'
+   5 | import { motion } from "framer-motion"
+   6 | import { ArrowRight } from "lucide-react"
+>  7 | import CategoryCard from "@/components/category-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import ProductCard from "@/components/product-card"
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+
+Import map: aliased to relative './components/category-card' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.877] Browser ERROR   ./app/(store)/layout.tsx:3:1
+Module not found: Can't resolve '@/components/footer'
+  1 | import type React from "react"
+  2 | import Header from "@/components/header"
+> 3 | import Footer from "@/components/footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function StoreLayout({
+  6 |   children,
+
+Import map: aliased to relative './components/footer' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.877] Browser ERROR   ./app/(store)/layout.tsx:2:1
+Module not found: Can't resolve '@/components/header'
+  1 | import type React from "react"
+> 2 | import Header from "@/components/header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Footer from "@/components/footer"
+  4 |
+  5 | export default function StoreLayout({
+
+Import map: aliased to relative './components/header' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.877] Browser ERROR   ./app/(store)/page.tsx:8:1
+Module not found: Can't resolve '@/components/product-card'
+   6 | import { ArrowRight } from "lucide-react"
+   7 | import CategoryCard from "@/components/category-card"
+>  8 | import ProductCard from "@/components/product-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import Testimonials from "@/components/testimonials"
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+
+Import map: aliased to relative './components/product-card' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.877] Browser ERROR   ./app/(store)/page.tsx:9:1
+Module not found: Can't resolve '@/components/testimonials'
+   7 | import CategoryCard from "@/components/category-card"
+   8 | import ProductCard from "@/components/product-card"
+>  9 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { getFeaturedProducts, getNewArrivals } from "@/lib/mock-data"
+  11 |
+  12 | export default function HomePage() {
+
+Import map: aliased to relative './components/testimonials' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/(store)/page.tsx [Client Component Browser]
+    ./app/(store)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(store)/page.tsx [Client Component SSR]
+    ./app/(store)/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:21.540] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.542] Server  ERROR    ⨯ "unhandledRejection:" Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.543] Server  ERROR    ⨯ "unhandledRejection: " Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.550] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.552] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.557] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.558] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.561] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.561] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.564] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.565] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.568] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.570] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.572] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.573] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.575] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.575] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.579] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.580] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.598] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.599] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.603] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.606] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.616] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.617] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.625] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.628] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.635] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.637] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.651] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.653] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.656] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.657] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.659] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.659] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.663] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.664] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.666] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.666] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.668] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.669] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.671] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.672] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.686] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.687] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/ayushkumar/Downloads/Quellin/app'
+[00:17:21.719] Server  LOG      ✓ Compiled in 311ms

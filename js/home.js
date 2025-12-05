@@ -7,8 +7,16 @@
 // - addToCart, showToast are provided elsewhere (cart.js / main.js)
 
 document.addEventListener("DOMContentLoaded", () => {
-  loadNewArrivals()
+  if (typeof window.productsReady === 'function') {
+    window.productsReady.then(initHome).catch(()=>initHome())
+  } else {
+    initHome()
+  }
 })
+
+function initHome() {
+  loadNewArrivals()
+}
 
 function loadNewArrivals() {
   const grid = document.getElementById("newArrivalsGrid")

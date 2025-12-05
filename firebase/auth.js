@@ -1,17 +1,14 @@
-;(function(){
-  if (!window.firebase || !firebase.auth) {
-    console.warn('[Auth] Firebase Auth SDK not found. Load firebase-auth-compat.js before auth.js')
-    return
+;
+(function(){
+  // Firebase Auth removed - providing stub interface
+  function signIn(){ 
+    console.log('[Auth] Sign-in functionality removed')
+    return Promise.resolve(null)
   }
-  const auth = firebase.auth()
-  const provider = new firebase.auth.GoogleAuthProvider()
-
-  function signIn(){ return auth.signInWithPopup(provider).catch(e => {
-    console.error('[Auth] Sign-in failed', e); alert('Google sign-in failed')
-  })}
-  function signOut(){ return auth.signOut().catch(e => {
-    console.error('[Auth] Sign-out failed', e)
-  })}
+  function signOut(){ 
+    console.log('[Auth] Sign-out functionality removed')
+    return Promise.resolve()
+  }
 
   function injectButton(user){
     const container = document.querySelector('.header .header-actions') || document.body
@@ -21,22 +18,13 @@
       btn.id = 'googleAuthBtn'
       btn.className = 'btn btn-outline'
       btn.style.marginLeft = '0.5rem'
+      btn.style.display = 'none' // Hide the auth button
       container && container.appendChild(btn)
-    }
-    if (user){
-      btn.textContent = 'Sign out'
-      btn.onclick = signOut
-    } else {
-      btn.textContent = 'Sign in with Google'
-      btn.onclick = signIn
     }
   }
 
-  auth.onAuthStateChanged((user)=>{
-    window.Auth = { user, signIn, signOut }
-    injectButton(user)
-    window.dispatchEvent(new CustomEvent('authStateChanged', { detail: { user } }))
-  })
-
-  window.Auth = { user: auth.currentUser, signIn, signOut }
+  // Initialize with no user
+  window.Auth = { user: null, signIn, signOut }
+  injectButton(null)
+  window.dispatchEvent(new CustomEvent('authStateChanged', { detail: { user: null } }))
 })();

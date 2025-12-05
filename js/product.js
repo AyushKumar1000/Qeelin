@@ -2,27 +2,38 @@
 
 let currentProduct = null
 let currentImageIndex = 0
-let selectedSize = ""
+let selectedSize = null
+console.debug('[Product] selectedSize initialized to:', selectedSize)
 
 // Use shared helpers from data.js and cart.js/main.js
 
 document.addEventListener("DOMContentLoaded", () => {
-  initProductPage()
+  if (typeof window.productsReady === 'function') {
+    window.productsReady.then(initProductPage).catch(()=>initProductPage())
+  } else {
+    initProductPage()
+  }
 })
 
 function initProductPage() {
   // Get product ID from URL
   const urlParams = new URLSearchParams(window.location.search)
   const productId = urlParams.get("id")
+  console.debug('[Product] URL productId:', productId)
 
   if (!productId) {
+    console.warn('[Product] No productId in URL; redirecting to collections')
     window.location.href = "collections.html"
     return
   }
 
-  currentProduct = getProductById(productId)
+  console.debug('[Product] Available products at lookup:', typeof products !== 'undefined' ? products : 'undefined')
+  // Try both string and number ID
+  currentProduct = getProductById(productId) || products.find(p => String(p.id) === String(productId))
+  console.debug('[Product] getProductById result:', currentProduct)
 
   if (!currentProduct) {
+    console.warn('[Product] Product not found; redirecting to collections')
     window.location.href = "collections.html"
     return
   }
@@ -33,6 +44,12 @@ function initProductPage() {
 }
 
 function renderProductDetails() {
+  console.debug('[Product] renderProductDetails called with currentProduct:', currentProduct)
+  if (!currentProduct) {
+    console.error('[Product] renderProductDetails: currentProduct is null; cannot render. Redirecting to collections.')
+    window.location.href = "collections.html"
+    return
+  }
   // Update document title
   document.title = `${currentProduct.name} | Qeelin Couture`
 
@@ -88,16 +105,20 @@ function renderProductDetails() {
     discountEl.style.display = "none"
   }
 
-  // Sizes
-  const sizeButtonsContainer = document.getElementById("sizeButtons")
-  if (sizeButtonsContainer) {
-    sizeButtonsContainer.innerHTML = currentProduct.sizes
-      .map(
-        (size) => `
-      <button class="size-btn" onclick="selectSize('${size}')">${size}</button>
-    `,
-      )
-      .join("")
+  // Size selection
+  const sizeButtons = document.getElementById('sizeButtons')
+  const sizeOption = document.querySelector('.product-option:has(#sizeButtons)')
+  if (currentProduct.sizes && Array.isArray(currentProduct.sizes) && currentProduct.sizes.length > 0) {
+    // Show size option and render buttons
+    if (sizeOption) sizeOption.style.display = ''
+    if (sizeButtons) {
+      sizeButtons.innerHTML = currentProduct.sizes.map(size =>
+        `<button class="size-btn" data-size="${size}" onclick="selectSize('${size}')">${size}</button>`
+      ).join('')
+    }
+  } else {
+    // Hide size option if no sizes
+    if (sizeOption) sizeOption.style.display = 'none'
   }
 
   // Stock status
@@ -156,8 +177,12 @@ function setupProductInteractions() {
 
   // Add to cart
   const addToCartBtn = document.getElementById("addToCartBtn")
+  console.debug('[Product] addToCartBtn element:', addToCartBtn)
   if (addToCartBtn) {
+    const style = window.getComputedStyle(addToCartBtn)
+    console.debug('[Product] addToCartBtn computed display/visibility:', style.display, style.visibility)
     addToCartBtn.addEventListener("click", handleAddToCart)
+    console.debug('[Product] handleAddToCart listener attached')
   }
 
   // WhatsApp order
@@ -186,7 +211,9 @@ function updateMainImage() {
 }
 
 function selectSize(size) {
+  console.debug('[Product] selectSize called with:', size)
   selectedSize = size
+  console.debug('[Product] selectedSize set to:', selectedSize)
 
   document.querySelectorAll(".size-btn").forEach((btn) => {
     btn.classList.toggle("active", btn.textContent === size)
@@ -194,27 +221,57 @@ function selectSize(size) {
 }
 
 function handleAddToCart() {
-  if (!selectedSize) {
-    showToast("Please select a size")
-    return
-  }
-
+  console.debug('[Product] handleAddToCart called, currentProduct:', currentProduct)
   const quantity = Number.parseInt(document.getElementById("qtyInput").value) || 1
-
-  addToCart(currentProduct.id, selectedSize, quantity)
-  showToast("Added to cart!")
+  // Direct cart implementation
+  let cart = []
+  try {
+    const saved = localStorage.getItem('qeelinCart')
+    console.debug('[Product] Existing cart data:', saved)
+    if (saved) cart = JSON.parse(saved)
+  } catch (e) {}
+  const existingIndex = cart.findIndex(item => item.productId === currentProduct.id && item.size == null)
+  if (existingIndex > -1) {
+    cart[existingIndex].quantity += quantity
+  } else {
+    cart.push({
+      productId: currentProduct.id,
+      name: currentProduct.name,
+      price: currentProduct.price,
+      image: (currentProduct.images && currentProduct.images.length) ? currentProduct.images[0] : '/placeholder.svg',
+      size: null,
+      quantity
+    })
+  }
+  console.debug('[Product] Saving cart to localStorage:', cart)
+  try {
+    localStorage.setItem('qeelinCart', JSON.stringify(cart))
+    const saved = localStorage.getItem('qeelinCart')
+    console.debug('[Product] Verifying saved cart:', saved)
+    // Update cart count
+    const cartCount = document.getElementById('cartCount')
+    if (cartCount) {
+      const totalItems = cart.reduce((sum, item) => {
+        const q = Number(item.quantity)
+        if (!Number.isFinite(q) || q <= 0) return sum
+        return sum + q
+      }, 0)
+      cartCount.textContent = String(totalItems)
+    }
+    showToast('Added to cart!')
+  } catch (e) {
+    console.error('[Product] Failed to save cart:', e)
+    showToast('Error: Could not add to cart')
+  }
 }
+// Expose globally
+window.handleAddToCart = handleAddToCart
 
 function handleWhatsAppOrder() {
-  if (!selectedSize) {
-    showToast("Please select a size")
-    return
-  }
-
   const quantity = Number.parseInt(document.getElementById("qtyInput").value) || 1
 
   // Add to cart first
-  addToCart(currentProduct.id, selectedSize, quantity)
+  addToCart(currentProduct.id, null, quantity)
 
   // Redirect to cart for checkout
   window.location.href = "cart.html"

@@ -6,6 +6,17 @@
   <title>Product | Qeelin Couture</title>
   <meta name="description" content="View product details.">
   <link rel="stylesheet" href="css/styles.css">
+  <style>
+    #addToCartBtn, .product-actions, .product-actions * {
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      position: static !important;
+      height: auto !important;
+      width: auto !important;
+      overflow: visible !important;
+    }
+  </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -190,12 +201,10 @@
   </div>
 <!-- Firebase SDKs -->
 <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-storage-compat.js"></script>
 <script src="firebase/config.js"></script>
 <script src="firebase/database.js"></script>
-<script src="firebase/auth.js"></script>
 
 <script src="js/data.js"></script>
 <script src="js/cart.js"></script>

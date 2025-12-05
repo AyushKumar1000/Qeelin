@@ -251,20 +251,23 @@ function clearAllProducts() {
 
 // Hook into Firebase if present to source products from Firestore
 ;(function(){
-  if (typeof window !== 'undefined' && window.DB && typeof window.DB.onProducts === 'function') {
-    let resolveReady
-    window.productsReady = new Promise((res)=>{ resolveReady = res })
-    window.DB.onProducts((items)=>{
-      if (Array.isArray(items)) {
-        products = items
-        try { localStorage.setItem(LOCAL_KEY, JSON.stringify(products)) } catch (e) {}
-        window.dispatchEvent(new CustomEvent('productsUpdated', { detail: { count: products.length } }))
-        if (resolveReady) { resolveReady(); resolveReady = null }
-      }
-    })
-  } else {
-    // No Firebase; ensure productsReady resolves immediately
-    if (typeof window !== 'undefined') {
+  if (typeof window !== 'undefined') {
+    if (window.DB && typeof window.DB.onProducts === 'function') {
+      let resolveReady
+      window.productsReady = new Promise((res)=>{ resolveReady = res })
+      window.DB.onProducts((items)=>{
+        console.debug('[Data] onProducts received items:', items)
+        if (Array.isArray(items)) {
+          products = items
+          try { localStorage.setItem(LOCAL_KEY, JSON.stringify(products)) } catch (e) {}
+          window.dispatchEvent(new CustomEvent('productsUpdated', { detail: { count: products.length } }))
+          if (resolveReady) { resolveReady(); resolveReady = null }
+        } else {
+          console.warn('[Data] onProducts did not receive an array:', items)
+        }
+      })
+    } else {
+      // No Firebase; ensure productsReady resolves immediately
       window.productsReady = Promise.resolve()
     }
   }
@@ -350,7 +353,7 @@ const adminCredentials = {
 }
 
 // ===== WHATSAPP CONFIG =====
-const WHATSAPP_NUMBER = "919876543210" // Replace with actual number
+// WHATSAPP_NUMBER is defined in js/cart.js to avoid duplication
 
 // ===== HELPER FUNCTIONS =====
 function formatPrice(price) {

@@ -1,8 +1,16 @@
 // ===== COLLECTIONS PAGE JS =====
 
 document.addEventListener("DOMContentLoaded", () => {
-  loadAllProducts()
+  if (typeof window.productsReady === 'function') {
+    window.productsReady.then(initCollectionsPage).catch(()=>initCollectionsPage())
+  } else {
+    initCollectionsPage()
+  }
 })
+
+function initCollectionsPage() {
+  loadAllProducts()
+}
 
 function loadAllProducts() {
   const grid = document.getElementById("allProductsGrid")
